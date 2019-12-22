@@ -1,7 +1,7 @@
 from dxl_control.Ax12 import Ax12
 
 # create motor object
-my_dxl = Ax12(9)
+my_dxl = Ax12(11)
 
 # connecting
 Ax12.open_port()
